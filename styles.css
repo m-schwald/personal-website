@@ -12,9 +12,10 @@ body {
   }
   
   h1 {
-    color: lightslategrey;
+    color: white;
     font-weight: bold;
-    margin: 10vh auto;
+    margin: 8vh auto;
+    text-align: center;
   }
   
   header {
@@ -38,13 +39,25 @@ body {
     color: black;
   }
   
+.nav-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
   nav a {
+    display: flex; 
     text-align: center;
     border-radius: 100%;
-    height: 2vh;
-    padding: 1rem;
-    background: lightslategrey;
-    margin: 1rem auto;
+    height: 13vh;
+    width: 13vh;
+  /*   padding: 1rem; */
+    background: rgba(0, 0, 0, 0.5);
+  /*   margin: 4rem auto; */
+    color: white;
+    justify-content: center;
+    align-items: center;
   }
 
   hr {
